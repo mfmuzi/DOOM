@@ -21,7 +21,7 @@ body{
 }
 
 #container{
-    width: 1400px;
+    width: 1000px;
     height: auto;
     position: relative;
     margin-left: auto;
@@ -29,8 +29,8 @@ body{
 }
 
 #fundoGame{
-    width: 1200px;
-    height: 730px;
+    width: 1000px;
+    height: 630px;
     background-image: url(../imgs/backgroundGame.png);
     background-size: cover;
     border-color: #fff;
@@ -73,7 +73,7 @@ img {
     height: 110px;
     position: absolute;
     left: 8px;
-    top: 250px;
+    top: 200px;
     background-image: url(../imgs/renevants.png);
 }
 
@@ -81,8 +81,8 @@ img {
     width: 83px;
     height: 73px;
     position: absolute;
-    left: 1000px;
-    top: 253px;
+    left: 900px;
+    top: 200px;
     background-image: url(../imgs/Cacodemon3.png);
 }
 
@@ -90,8 +90,8 @@ img {
     width: 115px;
     height: 116px;
     position: absolute;
-    left: 1000px;
-    top: 550px;
+    left: 900px;
+    top: 480px;
     background-image: url(../imgs/Demon2.png);
 }
 
@@ -101,7 +101,7 @@ img {
     height: 51px;
     position: absolute;
     left: 10px;
-    top: 615px;
+    top: 545px;
     background-image: url(../imgs/Marine.png);
 }
 
@@ -174,10 +174,10 @@ img {
 }
 
 #placar {
-    width: 650px;
+    width: 175px;
     height: 50px;
     position: absolute;
-    left: 1000px;
+    left: 800px;
 }
 
 h2 {
@@ -190,7 +190,7 @@ h2 {
     width: 43px;
     height: 50px;
     position: absolute;
-    left: 950px;
+    left: 750px;
     top: 30px;
 }
 

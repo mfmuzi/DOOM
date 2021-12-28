@@ -83,7 +83,7 @@ function start() {
             var topo = parseInt($("#jogador").css("top"));
             $("#jogador").css("top", topo + 10);
 
-            if (topo >= 580) {
+            if (topo >=500) {
                 $("#jogador").css("top", topo - 10);
             }
         }
@@ -92,7 +92,7 @@ function start() {
             var direita = parseInt($("#jogador").css("left"));
             $("#jogador").css("left", direita + 10);
 
-            if (direita >= 1050) {
+            if (direita >= 900) {
                 $("#jogador").css("left", direita - 10);
             }
         }
@@ -124,7 +124,7 @@ function start() {
         if (posicaoX <= 0) {
 
             posicaoY = parseInt(Math.random() * 334);
-            $("#inimigo1").css("left", 1000);
+            $("#inimigo1").css("left", 800);
             $("#inimigo1").css("top", posicaoY);
 
         }
@@ -139,7 +139,7 @@ function start() {
 
         if (posicaoX <= 0) {
 
-            $("#inimigo2").css("left", 1000);
+            $("#inimigo2").css("left", 750);
 
         }
     }
@@ -214,7 +214,7 @@ function start() {
             explosao1(inimigo1X, inimigo1Y);
 
             posicaoY = parseInt(Math.random() * 334);
-            $("#inimigo1").css("left", 1000);
+            $("#inimigo1").css("left", 800);
             $("#inimigo1").css("top", posicaoY);
 
         }
@@ -245,7 +245,7 @@ function start() {
             $("#disparo").css("left", 950);
 
             posicaoY = parseInt(Math.random() * 334);
-            $("#inimigo1").css("left", 1000);
+            $("#inimigo1").css("left", 800);
             $("#inimigo1").css("top", posicaoY);
 
         }
